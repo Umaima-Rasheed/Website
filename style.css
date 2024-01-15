@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: right;
+}
+.logo{
+    color: bisque;
+    padding: 20px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+    margin-left: auto;
+    float: right;
+    
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.menu ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #383e75;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.6s;
+
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+button{
+    width: 200px;
+    padding: 5px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid bisque;
+    text-align: center;
+    background: transparent;
+    color: bisque;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+   margin-top: 2%;
+}
+.header{
+    width: 100%;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-weight: bold;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: beige;
+
+}
+.header h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.header p{
+    margin: 20px auto;
+    font-size: large;
+    
+}
+
+button:hover{
+    background-color: blue;
+}
+
+#ser{
+    width: 90%;
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    font-weight: bold;
+    padding: 5px;
+    margin: 3%;
+}
+#b1{
+    background-color: palevioletred;
+}
+
+#container{
+    display: flex;
+    display: inline-flex;
+    
+}
+span{
+    color: rgb(241, 35, 35);
+}
+.icons{
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    padding-left: 10px;
+    border-radius: 2%;
+    border: 2px solid wheat;
+    box-shadow: 6px 6px rgb(168, 156, 156);
+}
+#b2{
+    color: black;
+    background-color: pink;
+    
+}
+#b2 :hover{
+    background-color: red;
+}
+.icon p{
+    font-size: smaller;
+}
+#port{
+    margin-top: 350px;
+    text-align: center;
+    margin-left: 350px;
+    display: flex;
+    display: inline-flex;
+}
+#box{
+    display: flex;
+    justify-content: flex;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+#b2{
+    width: 50px;
+    height: 20px;
+
+
+}
+main{
+    margin-top: 300px;
+    margin-left: 120px;
+}
+#photos{
+    display: flex;
+    justify-content: center;
+}
+.pic{
+    width: 30%;
+    float: left;
+    padding: 5px;
+    display: block;
+
+
+
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+#team{
+    margin-top: 50px;
+   text-align: center;
+   margin-left: 350px;
+}
+#team{
+    display: flex;
+    display: inline-flex;
+    
+}
+#person{
+   display: flex;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+}
+.profile{
+    background-color: aliceblue;
+    padding: 0px;
+    width: 300px;
+   /* height: 100px;*/
+    
+}
+
+.p{
+    border: 6px solid white;
+    margin: auto;
+    padding: 20px;
+    height: 400px;
+   /* width: 300px;
+    overflow: hidden;
+    box-shadow: 5px 5px 3px wheat;*/
+}
+
+
+
+   
+
+#contact{
+    margin-top: 350px;
+    text-align: center;
+  margin-left: 350px;
+}
+#contact{
+    display: flex;
+    display: inline-flex;
+}
+#info{
+    display: flex;
+   justify-content: row;
+   text-align: center;
+   padding: 3%;
+}
+
+#info{
+    display: block;
+    flex-direction: column;
+    text-align: right;
+}
+#contact{
+    margin-top: 50px;
+   text-align: center;
+   margin-left: 350px;
+}
+#contact{
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    
+}
+#info{
+    display: flex;
+    align-items: column;
+    justify-content: right;
+
+}
+@media screen (max-width: 600px;)
+{
+    .icon{
+        width: 150px;
+        height: 50px;
+    }
+    .p{
+        width: 50px;
+        height: 200px;
+    }
+}
+
+
+    
+
